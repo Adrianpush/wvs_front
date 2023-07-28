@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.rounded-button {
+  @apply inline-block rounded-full mx-1 bg-teal-700 border border-teal-500 px-4 py-2 text-center text-red-500 cursor-pointer;
+}
